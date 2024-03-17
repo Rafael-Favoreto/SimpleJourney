@@ -1,1 +1,1 @@
-# EasyCode
+# SimpleJourney
