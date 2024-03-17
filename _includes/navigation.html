@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg  bg-primary  ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Sjourney</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapce navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ">
+        {%for item in site.data.navigation%}
+        <a class="nav-link active" aria-current='page' href='{{item.link}}' {%if page.url == item.link%} style='color: green;'
+          {%endif%}>{{item.name}}</a>
+        {%endfor%}
+        
+        <div class='icons'>
+          <a class='btn' href="https://github.com/Dobat00/SimpleJourney"><h5><i class="bi bi-github"></i></h5></a>        </div>
+        
+
+
+
+
+      </ul>
+    </div>
+  </div>
+</nav>
