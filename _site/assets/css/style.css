@@ -12,3 +12,18 @@ div#conteudo{
 .icons{
   padding-left:1300px; 
  }
+
+ .author_pic{
+   width:80px;
+   height:80px;
+   border-radius:50%;
+   float: left;
+   margin-right: 10px;
+ }
+
+
+ /*https://brandslogos.com/*/
+ .post_logo{
+   width: 740px;
+   height: 219px;
+ }
