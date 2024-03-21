@@ -82,17 +82,34 @@ Alguma dúvida, elogio ou crítica? <a href='/staff.html'> Entre em contato!</a>
 <div id="comments">
 
     <h3>Adicionar Comentário</h3>
+  <br>
+    <textarea id="commentInput" placeholder="Seu comentário" required></textarea><br>
     <br>
-    <form action="/add_comment" method="post">
-      <input type="hidden" name="post_slug" value="javascript">
-      <textarea name="content" placeholder="Seu comentário" required></textarea><br><br>
-      <input type="submit" value="Enviar">
-    </form>
-   <br> 
+
+    <button class='btn btn-primary' onclick="adicionarComentario()">Enviar</button>
+  <br>
+<br>
     <h2>Comentários</h2>
-    <ul>
-      
-    </ul>
+    <ul id="commentList"></ul>
+  <br><br><br>
+
+  </div>
+
+
+<script>
+    var nextCommentId = 1;
+    function adicionarComentario() {
+      var commentInput = document.getElementById("commentInput").value;
+      var commentList = document.getElementById("commentList");
+      var listItem = document.createElement("li");
+      listItem.textContent = "Anônimo: " + commentInput;  
+      listItem.setAttribute("id", "comment_" + nextCommentId); 
+      commentList.appendChild(listItem);
+      document.getElementById("commentInput").value = ""; 
+
+      nextCommentId++; 
+    }
+  </script> 
 
     
   </div>

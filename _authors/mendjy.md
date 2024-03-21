@@ -1,7 +1,7 @@
 ---
 short_name: Mendjy E
 name: Mendjy Eliaza
-position: Editor
+position: Administrador
 author_pic: /assets/images/mendjy_pic.jpg 
 email: mendjy.eliaza@edu.unifil.br
 linkedin: https://www.linkedin.com/in/mendjy-eliaza-530a73232/

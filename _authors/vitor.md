@@ -1,7 +1,7 @@
 ---
 short_name: Vitor Y
 name: Vitor Yuuki 
-position: Editor
+position: Administrador
 author_pic: /assets/images/vitor_pic.jpg
 email: vitorhorikawa@edu.unifil.br
 linkedin: https://www.linkedin.com/in/vitor-yuuki-horikawa-5a0086235/

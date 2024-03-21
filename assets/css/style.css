@@ -27,3 +27,19 @@ div#conteudo{
    width: 740px;
    height: 219px;
  }
+
+#comments {
+  margin-top: 20px;
+}
+
+.comment-input-container {
+  margin-bottom: 20px;
+}
+
+#commentInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical; / Permite redimensionamento vertical */
+}

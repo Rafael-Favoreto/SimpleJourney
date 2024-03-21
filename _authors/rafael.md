@@ -1,7 +1,7 @@
 ---
 short_name: Rafael F
 name: Rafael Favoreto 
-position: Editor
+position: Administrador
 author_pic: /assets/images/rafael_pic.jpg
 email: rafaelfavoreto@edu.unifil.br
 linkedin: https://www.linkedin.com/in/rafael-favoreto-b5205724a/
