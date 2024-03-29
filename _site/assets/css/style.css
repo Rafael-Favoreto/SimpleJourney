@@ -24,8 +24,8 @@ div#conteudo{
 
  /*https://brandslogos.com/*/
  .post_logo{
-   width: 740px;
-   height: 219px;
+   width:auto;
+   height:auto; 
  }
 
 #comments {

@@ -1,8 +1,8 @@
 - name: Home
   link: /
-- name: Sobre 
+- name: Sobre
   link: /about.html
-- name: Postagens
+- name: Artigos
   link: /blog.html
 - name: Autores
   link: /staff.html
